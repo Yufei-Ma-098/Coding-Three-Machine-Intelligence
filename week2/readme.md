@@ -4,7 +4,7 @@ Make a copy of your Coding Three notebook from Step 2.(https://git.arts.ac.uk/rf
 Find another binary (2-class) text classification dataset (e.g., from kaggle.com) and adapt the text classification week2 notebook to build a classifier for this dataset. Use your copy of the Coding Three notebook from Step 2, rather than using other code you find elsewhere. 
 
 ## Introduction
-This code tries to build a fake news classifier using a neural network model implemented in Keras and TensorFlow libraries. The dataset used is "fakerealnews.csv", containing news headlines and their corresponding labels, with six different classes: 'TRUE', 'FALSE', 'barely-true', 'half-true', 'mostly-true', and 'pants-fire'. it can be found at https://www.kaggle.com/techykajal/fakereal-news.
+This code tries to build a fake news classifier using a neural network model implemented in Keras and TensorFlow libraries. The dataset used is "fakerealnews.csv", containing news headlines and their corresponding labels, with six different classes: 'TRUE', 'FALSE', 'barely-true', 'half-true', 'mostly-true', and 'pants-fire'. It can be found at https://www.kaggle.com/techykajal/fakereal-news.
 
 ## Prerequisites
 To run this code, you will need to have the following libraries installed:
