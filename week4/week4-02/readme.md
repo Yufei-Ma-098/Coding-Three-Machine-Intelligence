@@ -18,7 +18,6 @@ To run the script, make sure you have the following dependencies installed:
 - argparse
 - os
 - cv2
-To train the autoencoder, run the following command:
 
 You can specify the number of epochs and the batch size as command line arguments. The default values are 50 epochs and 16 batch size.
 
