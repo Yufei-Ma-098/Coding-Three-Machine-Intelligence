@@ -1,6 +1,6 @@
 # Readme
-## Instruction
-Make a copy of your Coding Three notebook from Step 2.(https://git.arts.ac.uk/rfiebrink/ExploringMachineIntelligence_Spring2023/blob/main/week2/TextClassifier.ipynb)  
+>## Instruction
+>Make a copy of your Coding Three notebook from Step 2.(https://git.arts.ac.uk/rfiebrink/ExploringMachineIntelligence_Spring2023/blob/main/week2/TextClassifier.ipynb)  
 Find another binary (2-class) text classification dataset (e.g., from kaggle.com) and adapt the text classification week2 notebook to build a classifier for this dataset. Use your copy of the Coding Three notebook from Step 2, rather than using other code you find elsewhere. 
 
 ## Introduction
