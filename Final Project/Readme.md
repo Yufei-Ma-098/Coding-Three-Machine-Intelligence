@@ -1,7 +1,7 @@
 # Subverting the Chairs: StyleGAN XL with Random Prompt Outputs
 This is a project that generates random chair images using the StyleGAN XL and OpenAI's CLIP model for guidance based on text inputs. The unique feature of this code is the ability to generate random prompts, which includes varying combinations of colors, styles and events.
 
-The code relies on CLIP's text-to-image capabilities to guide the StyleGAN model, generating images that align with a given text prompt. This project stands out with its capacity to generate random prompts, providing unique text inputs to guide the image generation process.
+The code relies on CLIP's text-to-image capabilities to guide the StyleGAN model, generating images that align with a given text prompt, providing unique text inputs to guide the image generation process.
 
 ## Project Theme
 Chairs serve as an embodiment of public flux and disorder. They stand as a medium, establishing the connection between humans and the infinite. As we sit in chairs to work, ponder, converse, and even sleep, these stationary objects bear witness to our fluid nature.
