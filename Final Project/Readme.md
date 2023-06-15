@@ -1,21 +1,32 @@
-# Readme
-This is a simple implementation of a GAN using TensorFlow 2. The code is based on [dcgan.ipynb](https://git.arts.ac.uk/rfiebrink/ExploringMachineIntelligence_Spring2023/blob/main/week5/dcgan.ipynb), but with a modification to the activation function in the generator model. Specifically, I changed the activation function from LeakyReLU to ReLU, which led to a noticeable improvement in the quality of the generated images.
+# Subverting the Chairs: StyleGAN XL with Random Prompt Outputs
+This is a project that generates random chair images using the StyleGAN XL and OpenAI's CLIP model for guidance based on text inputs. The unique feature of this code is the ability to generate random prompts, which includes varying combinations of colors, styles and events.
 
-## Changes Made
-The only change made to the original code was to the `make_generator_model function`. I replaced all instances of `tf.keras.layers.LeakyReLU` with `tf.keras.layers.ReLU`. This allowed the generator model to better capture the underlying structure of the dataset, which resulted in higher quality generated images.
+The code relies on CLIP's text-to-image capabilities to guide the StyleGAN model, generating images that align with a given text prompt. This project stands out with its capacity to generate random prompts, providing unique text inputs to guide the image generation process.
 
-## Usage
-To run the code, simply run the train function. You can specify the number of epochs to train for and the batch size by changing the `EPOCHS` and `BATCH_SIZE` variables at the beginning of the code.
+## Project Theme
+Chairs serve as an embodiment of public flux and disorder. They stand as a medium, establishing the connection between humans and the infinite. As we sit in chairs to work, ponder, converse, and even sleep, these stationary objects bear witness to our fluid nature.
 
-After training is complete, the `generate_and_save_images` function can be used to `generate and save images` from the trained generator model.
+Utilizing StyleGAN technology, I've curated an array of chairs in various styles, strange and wonderful. They cease to be singular or static. This is a challenge to conventional perceptions of chairs, but moreover, it's an opportunity to rethink our human culture.
 
-## Dependencies
-The code requires the following dependencies:
+## Installation and Running the Code
+This project is designed to run in Google Colab.
 
-- TensorFlow 2
-- NumPy
-- Matplotlib
-- imageio
+## Technical Details
+The code begins by installing necessary libraries and cloning repositories for StyleGAN XL, CLIP and ESGD and sets the device to CUDA if available.
 
-## Acknowledgments
-The code is based on the TensorFlow 2 GAN tutorial, which can be found [here](https://www.tensorflow.org/tutorials/generative/dcgan).
+Then the code generates random text prompts by selecting a random choice of colors, styles and events. These prompts guide the model to generate images.
+
+The images are generated in a sequence and displayed in the notebook. Once the image generation process is complete, these images are saved into a video file, providing a transition between the different image outputs.
+
+## Libraries and Models Used:
+- **StyleGAN XL:** This is an enhanced version of the original StyleGAN model, optimized for generating high-resolution images.
+- **CLIP (Contrastive Language–Image Pretraining):** This model from OpenAI uses transformers to connect images and text, providing a way to guide the image generation process.
+ESGD (Evolution Strategies with Stochastic Gradients): This library provides the optimization algorithm used in the training process.
+
+## Important Functions:
+- **fetch:** This function fetches an image from a URL or a file path.
+- **fetch_model:** This function fetches a StyleGAN model from a URL.
+- **slugify:** This function converts a given string to a format that can be used in a URL or filename.
+- **spherical_dist_loss:** This function calculates the spherical distance loss.
+- **prompts_dist_loss:** This function calculates the prompt distance loss.
+- **run:** This function runs the entire image generation process.
