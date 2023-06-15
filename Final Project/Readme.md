@@ -31,8 +31,18 @@ ESGD (Evolution Strategies with Stochastic Gradients): This library provides the
 - **prompts_dist_loss:** This function calculates the prompt distance loss.
 - **run:** This function runs the entire image generation process.
 
+## Example Results
+![chair10_AdobeExpress](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/d5978de6-4a57-42a4-8fb9-6206b6d819fb)
+![chair4_AdobeExpress](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/641c24d0-0eef-4540-a6a0-591da8d7a67f)  
+![chair11_AdobeExpress](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/372b26c5-51b2-45a3-8ef8-eea0e44e568c)
+![chair41_AdobeExpress](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/a1e0f4a2-d650-454a-9a31-6cd6fac1cf86)
+
+
+
 ## Reference Code and Libraries
 - [StyleganXL](https://github.com/autonomousvision/stylegan-xl)
 - [CLIP](https://github.com/openai/CLIP)
 - [StyleGAN3-CLIP](https://github.com/ouhenio/StyleGAN3-CLIP-notebooks)
 - [gen-clip](https://github.com/ryudrigo/my-gen-clip)
+
+
