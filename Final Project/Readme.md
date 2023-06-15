@@ -32,16 +32,15 @@ ESGD (Evolution Strategies with Stochastic Gradients): This library provides the
 - **run:** This function runs the entire image generation process.
 
 ## Example Results
+![下载 (5)](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/50c49053-8639-42ca-9bab-708a8eae9ee7)
+![下载 (10)](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/ec128f95-5e71-40aa-b08a-2c390a575623)
+![下载 (3)](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/66621e41-d997-45f6-ad47-2a6ee221d847)
+![下载 (2)](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/e95ea255-4154-478f-9ebd-0d558b3409d9)
+
 ![chair10_AdobeExpress](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/d5978de6-4a57-42a4-8fb9-6206b6d819fb)
 ![chair4_AdobeExpress](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/641c24d0-0eef-4540-a6a0-591da8d7a67f)  
 ![chair11_AdobeExpress](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/372b26c5-51b2-45a3-8ef8-eea0e44e568c)
 ![chair41_AdobeExpress](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/a1e0f4a2-d650-454a-9a31-6cd6fac1cf86)  
-  
-![下载 (5)](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/50c49053-8639-42ca-9bab-708a8eae9ee7)
-![下载 (10)](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/ec128f95-5e71-40aa-b08a-2c390a575623)  
-![下载 (3)](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/66621e41-d997-45f6-ad47-2a6ee221d847)
-![下载 (2)](https://github.com/Yufei-Ma-098/Coding-Three-Machine-Intelligence/assets/119874724/e95ea255-4154-478f-9ebd-0d558b3409d9)
-
 
 
 ## Reference Code and Libraries
