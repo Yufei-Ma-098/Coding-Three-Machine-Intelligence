@@ -30,3 +30,9 @@ ESGD (Evolution Strategies with Stochastic Gradients): This library provides the
 - **spherical_dist_loss:** This function calculates the spherical distance loss.
 - **prompts_dist_loss:** This function calculates the prompt distance loss.
 - **run:** This function runs the entire image generation process.
+
+## Reference Code and Libraries
+- [StyleganXL](https://github.com/autonomousvision/stylegan-xl)
+- [CLIP](https://github.com/openai/CLIP)
+- [StyleGAN3-CLIP](https://github.com/ouhenio/StyleGAN3-CLIP-notebooks)
+- [gen-clip](https://github.com/ryudrigo/my-gen-clip)
